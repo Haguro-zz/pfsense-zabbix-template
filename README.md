@@ -44,7 +44,7 @@ First copy the file pfsense_zbx.php to your pfsense box (e.g. to /root/scripts).
 From **Diagnostics/Command Prompt** input this one-liner:
 
 ```bash
-curl --create-dirs -o /root/scripts/pfsense_zbx.php https://raw.githubusercontent.com/rbicelli/pfsense-zabbix-template/master/pfsense_zbx.php
+curl --create-dirs -o /root/scripts/pfsense_zbx.php https://raw.githubusercontent.com/Haguro-zz/pfsense-zabbix-template/master/pfsense_zbx.php
 ```
 
 > You can add this command to **Services** > **Shellcmd** (which is available in pfSense Package Manager) in order to download the latest version of the script, each time you reboot or restore a config backup.
